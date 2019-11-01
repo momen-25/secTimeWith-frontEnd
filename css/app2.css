@@ -1,0 +1,574 @@
+* {
+    -wibkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+body{
+    
+    perspective: 600px;
+}
+
+.cont {
+    width: 1070px;
+    margin: auto;
+  
+    z-index: 3;
+}
+
+
+.clear{
+    
+    clear: both;
+}
+
+.header{
+    text-transform: uppercase;
+    background: url("../img/Toronto-mobile-website-design.jpg");
+    height: 500px;
+    color: #fff;
+    background-size: cover;
+    
+}
+
+.header .bx-wrapper  {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    height: 84%;
+}
+
+.header .bx-wrapper .bx-viewport {
+  height: 100% !important;
+  text-align: center;
+}
+
+.header .slider {
+    height:100%;
+    
+}
+
+.header .slider div {
+    text-transform: uppercase;
+    font-size: 50px
+    
+}
+
+.header .slider span{
+    color:  #1abc9c;
+    
+    
+}
+
+.header .nav {
+
+
+
+    overflow: hidden;
+}
+
+.header .nav .brandn {
+    
+    float: left;
+    width: 45%;
+  
+}
+
+.header .nav .brandn h2 {
+  
+    
+}
+
+.header .nav .brandn h2 span {
+        color: #1abc9c;
+
+}
+
+.links {
+    float: left;
+    width: 55%;
+    list-style: none;
+  
+}
+
+.header .nav .links li {
+    display: inline-block;
+    margin: 10px 15px 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.header .nav .links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav .links .active {
+    border-bottom: 2px solid #1abc9c ;
+    color: #1abc9c;
+}
+
+.header .nav .links li .aclive,
+.header .nav .links li:hover{
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c ;
+    
+    
+}
+
+.header .nav .links li a:hover {
+    color: #1abc9c;
+}
+
+
+.about {
+    padding: 35px 0 0 0 ;
+    
+    
+}
+
+.sph{
+    position: relative;
+    text-transform: capitalize;
+    color: #2d2d2d;
+    
+    
+}
+
+
+ .sph:after {
+    content:"";
+    display:block;
+    position: absolute;
+    width: 65px;
+    border-bottom:1px solid #333;
+    top: 50px;
+    left:0;
+}
+
+
+
+.about .box {
+    margin-top: 50px;
+    overflow: hidden;
+    width: 48%;
+    float: left;
+    margin-right: 1%;
+}
+
+.about .box i{
+    float:left;
+    color: #1abc9c;
+    
+}
+
+.about .box div {
+    margin-left: 9%;
+    float: left;
+    width: 91%;
+}
+
+
+
+
+hr{
+    margin-top: 70px;
+    color: #b6b6b6;
+    
+}
+
+
+
+.about .box p {
+    color: #b6b6b6;
+    
+}
+
+
+.about .box h2 {
+    
+    text-transform: capitalize;
+}
+
+.work {
+    
+    padding-top: 100px;
+    
+}
+
+.work h1 {
+    
+    margin: 0;
+}
+
+.work .text {
+    
+    width: 35%;
+    overflow: hidden;
+    float: left;
+    margin-right: 3%;
+    
+}
+
+.work .text p{
+    
+    margin-top: 40px;
+    color: #b6b6b6;
+}
+
+.work .imgs {
+    float: left;
+    width: 62%;
+    margin-top: 20px;
+    
+    
+}
+
+.work .imgs .img {
+    
+    margin-left: 12px;
+    position: relative;
+   
+    display: inline-block;
+}
+
+
+.work .imgs .img .over {
+    
+    position: absolute;
+    top:-2px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#b6b6b6;
+    width: 100%;
+    height: 100%;
+    display: block !important;
+    opacity: 0;
+    color: #3e3e3e;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+
+.work .imgs .img .over:hover{
+    cursor: pointer;
+}
+
+
+.feed {
+    height: 400px;
+    background-image: url(../img/wef.gif);
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    color: #fff;
+}
+
+
+.feed .over2 {
+    
+    position: absolute;
+    top:0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#191919;
+    width: 100%;
+    height: 100%;
+    display: block !important;
+    opacity: .6;
+    color: #3e3e3e;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+
+
+.feed h2{
+    
+    z-index: 2;
+    position: absolute;
+    font-size: 35px;
+    left: 510px;
+    text-transform: capitalize;
+}
+
+
+
+.feed p{
+    top: 200px;
+    position: absolute;
+    right: 320px;
+    width: 700px;
+    z-index: 2;
+    font-size: 19px;
+}
+
+.feed span {
+    
+    color: #1abc9c;
+}
+
+
+.proj h2 {
+    
+    text-transform: capitalize;
+    margin: 80px 0 55px 0;
+    color: #2d2d2d;
+    position: relative;
+}
+
+.proj h2:after {
+    content:"";
+    display:block;
+    position: absolute;
+    width: 36px;
+    border-bottom:1px solid #333;
+    top: 36px;
+    left:0;
+}
+
+
+.proj ul {
+    
+    display: block;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+
+
+.proj ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #b6b6b6;
+    padding: 10px 20px 5px ;
+    text-transform: capitalize;
+    border-radius: 3px;
+    color: #b6b6b6;
+}
+
+
+.proj ul li:hover{
+    cursor: pointer;
+    background-color:  #1abc9c;
+    border: 1px solid  #1abc9c;
+    color: #fff; 
+}
+
+.proj ul .act {
+    background-color:  #1abc9c;
+    border: 1px solid  #1abc9c;
+    color: #fff; 
+}
+
+.proj .photo {
+    
+    
+}
+
+.proj .ph{
+    margin-right: 25px;
+    float: left;
+    margin-top: 22px;
+    position: relative;
+} 
+
+.proj .ph img{
+    
+}
+
+
+.proj .ph .over3{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#1abc9c;
+    width: 100%;
+    height: 98%;
+    display: block !important;
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    z-index: 2;
+   
+}
+
+
+.proj .ph .likes{
+    color: #fff; 
+    z-index: 2;
+    position: absolute;
+    top: 177px;
+    left: 295px;
+    
+}
+    
+
+.likes span {
+    font-size: 13px;
+    margin-left: 5px;
+    
+}
+    
+.proj .ph button {
+    background: none;
+    border: 1px solid #fff;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 35%;
+    z-index: 2;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    display: block ;
+    
+}
+
+.proj .ph button:hover{
+    cursor: pointer;
+}
+
+
+.footer {
+    
+    margin-top: 120px;
+    background-color: #232323;
+    display: flex;
+}
+
+.footer .about {
+    
+    width: 24%;
+    padding-top: 65px;
+    float: left;
+    height: 350px;
+    margin-right: 1.333333333333333333333333%;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.footer .sph3{
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    color: #fff;
+    
+} 
+
+.footer .blog {
+   width: 24%;
+    padding-top: 65px;
+    float: left;
+    height: 350px;
+   
+    color: #fff;
+    padding-left: 30px;
+}
+
+
+.footer .blog .word{
+    
+    color: #c4c4c4;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.footer .blog .word:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.footer .blog .line{
+    height: 1px;
+    background-color: #575757;
+    margin-top: 9px;
+    width: 15%;
+}
+
+.footer .about p{
+    color: #b6b6b6;
+    margin-bottom: 30px;
+    
+}
+
+.footer .about i {
+    color: #b6b6b6;
+    margin-right: 5px;
+    border: 1px solid #b6b6b6;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+
+.footer .about i:hover{
+    cursor: pointer;
+    color:  #fff;
+     border: 1px solid #fff;
+}
+
+.footer .about ul{
+    color: #b6b6b6;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.footer .about ul li {
+    list-style: none;
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #b6b6b6;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+
+.footer .about ul li:hover{
+    
+    cursor: pointer;
+    color:  #fff;
+     border: 1px solid #fff;
+}
+
+
+.footer .about img{
+    position: absolute;
+    
+}
+
+.footer .about div {
+    position: relative;
+}
+
+
+.footer .about div h4 {
+    position: absolute;
+    top: -8px;
+    left: 98px;
+    color: #b6b6b6;
+}
+
+.footer .about div span {
+    position: absolute;
+    top: 28px;
+    left: 100px;
+    font-size: 13px;
+    color: #5a5a5a;
+}
